@@ -1,31 +1,34 @@
 {
     "head":{
-        "title-nav": ["Welcome to my portfolio",true],
-        "title":["Get to know me and my work",true],
-        "title-desc":["Explore my site to learn more about me and to see what I can do",true]
+        "title-nav": "Welcome to my portfolio",
+        "title":"Get to know me and my work",
+        "title-desc": "Explore my site to learn more about me and to see what I can do"
     },
     "about":{
-        "aboutme": ["Hi Im Luke",true],
-        "motto":["Work hard, play hard", true],
-        "school": ["Cal Poly SLO, Biomedical Engineering", true],
-        "experience":["6 years of manufacturing and engineering of complex electromechanical devices", true],
-        "resume":["resumelink", true]
+        "aboutme": "Hi Im Luke",
+        "motto":"Work hard, play hard",
+        "school": "Cal Poly SLO, Biomedical Engineering",
+        "experience":"6 years of manufacturing and engineering of complex electromechanical devices",
+        "resume":"resumelink"
     },
     "services":{
         "title":"What can I do for you?",
         "serviceList": [{"icon": "<i class='bi-globe fs-1 text-primary'></i>", "title":"System Development and Analytics", "description": "Work closely with your team to help design, implement, and improve your business systems" },
             {"icon": "<i class='bi-laptop fs-1 text-primary'></i>", "title":"Full Stack Web Development", "description": "If your existing system needs an added feature or a bug-fix, I'd be happy to help" },
-            {"icon": "<i class='bi-globe fs-1 text-primary'></i>", "title":"Manufacturing Consulting", "description": "Do you have a business idea that requires physical product? My industry experience will help you get through all of the speed bumps" }
-            ],
+            {"icon": "<i class='bi-gem fs-1 text-primary'></i>", "title":"Manufacturing Consulting", "description": "Do you have a business idea that requires physical product? My industry experience will help you get through all of the speed bumps" },
+            {"icon": "<i class='bi-gem fs-1 text-primary'></i>", "title":"Manufacturing Consulting", "description": "Do you have a business idea that requires physical product? My industry experience will help you get through all of the speed bumps" }
+,{"icon": "<i class='bi-gem fs-1 text-primary'></i>", "title":"Manufacturing Consulting", "description": "Do you have a business idea that requires physical product? My industry experience will help you get through all of the speed bumps" }
+,{"icon": "<i class='bi-gem fs-1 text-primary'></i>", "title":"Manufacturing Consulting", "description": "Do you have a business idea that requires physical product? My industry experience will help you get through all of the speed bumps" }
+],
         "show": true    
     },
     "portfolio":{
-        "projectList": [{"image":"1.jpg","category":"System Engineering", "name":"MES Implementation"},
-                        {"image":"2.jpg","category":"System Engineering", "name":"MES Implementation"},
-                        {"image":"3.jpg","category":"System Engineering", "name":"MES Implementation"},
-                        {"image":"4.jpg","category":"System Engineering", "name":"MES Implementation"},
-                        {"image":"5.jpg","category":"System Engineering", "name":"MES Implementation"},
-                        {"image":"6.jpg","category":"System Engineering", "name":"MES Implementation"}
+        "projectList": [{"image":"mes.jpg","category":"System Engineering", "name":"MES Implementation","url":""},
+                        {"image":"2.jpg","category":"Full Stack Web Dev", "name":"Portfolio Builder","url":""},
+                        {"image":"3.jpg","category":"Full Stack Web Dev", "name":"Musician Meet-up","url":""},
+                        {"image":"4.jpg","category":"System Engineering", "name":"Tool Management Software","url":""},
+                        {"image":"5.jpg","category":"Javascript App", "name":"Inspirational Quotes","url":""},
+                        {"image":"6.jpg","category":"Javascript App", "name":"Weather App","url":""}
         ]
     },
     "contact":{
