@@ -5,15 +5,14 @@
         "title-desc": "Explore my site to learn more about me and to see what I can do"
     },
     "about":{
-        "aboutme": "Hi Im Luke",
-        "motto":"Work hard, play hard",
-        "school": "Cal Poly SLO, Biomedical Engineering",
-        "experience":"6 years of manufacturing and engineering of complex electromechanical devices",
+        "aboutme": "About me",
+        "motto":"'Vision without action is a dream. Action without vision is simply passing the time. Action with Vision is making a positive difference.' ~ Joel Barker",
+        "school": ["Cal Poly San Luis Obispo, Biomedical Engineering class of 2015"],
+        "experience": ["2 years as an electro-mechanical technician", "3 years as a manufacturing engineeering", "1 year (and counting) as a MES Implementation Systems Analyst"],
         "resume":"resume/LukeColeResume.pdf",
         "social": [
-                    {"name":"facebook", "url":""},
                     {"name":"instagram", "url":"https://www.instagram.com/lukeajcole/"},
-                    {"name":"linkedin", "url":"www.linkedin.com/in/lukeajcole"},
+                    {"name":"linkedin", "url":"https://www.linkedin.com/in/lukeajcole"},
                     {"name":"github", "url":"https://github.com/lukeajcole"}
                 ]
     },
@@ -21,20 +20,17 @@
         "title":"What can I do for you?",
         "serviceList": [{"icon": "<i class='bi-globe fs-1 text-primary'></i>", "title":"System Development and Analytics", "description": "Work closely with your team to help design, implement, and improve your business systems" },
             {"icon": "<i class='bi-laptop fs-1 text-primary'></i>", "title":"Full Stack Web Development", "description": "If your existing system needs an added feature or a bug-fix, I'd be happy to help" },
-            {"icon": "<i class='bi-gem fs-1 text-primary'></i>", "title":"Manufacturing Consulting", "description": "Do you have a business idea that requires physical product? My industry experience will help you get through all of the speed bumps" },
             {"icon": "<i class='bi-gem fs-1 text-primary'></i>", "title":"Manufacturing Consulting", "description": "Do you have a business idea that requires physical product? My industry experience will help you get through all of the speed bumps" }
-,{"icon": "<i class='bi-gem fs-1 text-primary'></i>", "title":"Manufacturing Consulting", "description": "Do you have a business idea that requires physical product? My industry experience will help you get through all of the speed bumps" }
-,{"icon": "<i class='bi-gem fs-1 text-primary'></i>", "title":"Manufacturing Consulting", "description": "Do you have a business idea that requires physical product? My industry experience will help you get through all of the speed bumps" }
-],
+            ],
         "show": true    
     },
     "portfolio":{
-        "projectList": [{"image":"mes.jpg","category":"System Engineering", "name":"MES Implementation","url":""},
-                        {"image":"2.jpg","category":"Full Stack Web Dev", "name":"Portfolio Builder","url":""},
-                        {"image":"3.jpg","category":"Full Stack Web Dev", "name":"Musician Meet-up","url":""},
-                        {"image":"4.jpg","category":"System Engineering", "name":"Tool Management Software","url":""},
-                        {"image":"5.jpg","category":"Javascript App", "name":"Inspirational Quotes","url":""},
-                        {"image":"6.jpg","category":"Javascript App", "name":"Weather App","url":""}
+        "projectList": [{"image":"mes.jpg","category":"System Engineering", "name":"MES Implementation","url":"https://www.ibaset.com/solutions/manufacturing-execution-system/"},
+                        {"image":"portfolio.jpg","category":"Full Stack Web Dev", "name":"Portfolio Builder","url":"https://github.com/lukeajcole/Portfolio"},
+                        {"image":"alottarhythms.png","category":"Full Stack Web Dev", "name":"Musician Meet-up","url":"https://sheltered-garden-76553.herokuapp.com/"},
+                        {"image":"snipeit.jpg","category":"System Engineering", "name":"Tool Management Software Implementation","url":"https://snipe-it.readme.io/docs"},
+                        {"image":"inspiration.png","category":"Javascript App", "name":"Inspirational Quotes","url":"https://joeyfitz.github.io/First-Team-Project/"},
+                        {"image":"weatherapp.PNG","category":"Javascript App", "name":"Weather App","url":"https://lukeajcole.github.io/06-Server-Side-API-Weather-Dashboard-LAJC/index.html"}
         ]
     },
     "contact":{

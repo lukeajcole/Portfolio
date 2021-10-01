@@ -40,15 +40,27 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">{{contentJSON.about.motto}}</h2>
+                        <h1 class="text-dark mb-4">{{contentJSON.about.aboutme}}:</h1>
+                        <h2 class="text-dark mb-4">Quote of the Day:</h2>
+                        <h2 class="text-dark mt-0">{{contentJSON.about.motto}}</h2>
                         <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">{{contentJSON.about.aboutme}}</p>
-                        <p class="text-white-75 mb-4">{{contentJSON.about.school}}</p>
-                        <p class="text-white-75 mb-4">{{contentJSON.about.experience}}</p>
+                        
+                        <h3 class="text-dark mb-4">Education</h3>
+                        <ul class="text-body" style="list-style-type:none">
+                            {{#each contentJSON.about.school as |school|}}
+                                <li>{{school}}</li>
+                            {{/each}}
+                        </ul>
+                        <h3 class="text-dark mb-4">Experience</h3>
+                        <ul class="text-body" style="list-style-type:none">
+                            {{#each contentJSON.about.experience as |work|}}
+                                <li>{{work}}</li>
+                            {{/each}}
+                        </ul>
                         <a class="btn btn-light btn-xl" target="_break" href="{{contentJSON.about.resume}}">View Resume!</a>
                         <div id="social-links" class="d-flex flex-row justify-content-center flex-wrap m-3">
                             {{#each contentJSON.about.social as |social|}}
-                                <a href="{{social.url}}"><i class="fab fa-{{social.name}}" aria-hidden="true"></i></a>
+                                <a target="_break" href="{{social.url}}"><i class="fab fa-{{social.name}}" aria-hidden="true"></i></a>
                             {{/each}}
                             
                         </div>
@@ -89,16 +101,6 @@
                             <a target="_break" href="{{project.url}}" class="btn btn-primary">View Project</a>
                         </div>
                     </div>
-                    
-                    {{!-- <div class="p-2" style="height:75px">
-                        <a class="portfolio-box" href="/img/portfolio/fullsize/{{project.image}}" target="_break" title="{{project.name}}">
-                            <img class="img-fluid" src="/img/portfolio/thumbnails/{{project.image}}" alt="{{project.name}}" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">{{project.category}}</div>
-                                <div class="project-name">{{project.name}}</div>
-                            </div>
-                        </a>
-                    </div> --}}
                     {{/each}}
                 </div>
             </div>
@@ -154,6 +156,7 @@
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
                         <i class="bi-phone fs-2 mb-3 text-muted"></i>
                         <div>+1 (760) 902-7499</div>
+                        <div>lukeajcole@gmail.com</div>
                     </div>
                 </div>
             </div>
