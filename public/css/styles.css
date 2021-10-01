@@ -63,8 +63,8 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-color: #c79696;
+  --bs-body-bg: rgb(65, 63, 63);
 }
 
 *,
@@ -7764,7 +7764,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #818c95 !important;
 }
 
 .text-black-50 {
@@ -11384,10 +11384,11 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
-  background-position: center;
+  background-position:top;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: auto 50%;
+  height: 100%;
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;

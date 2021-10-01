@@ -14,18 +14,26 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 h-100">
+        <header>
+        <div class="m-3 p-3 jumbotron jumbotron-fluid">
+            </br></br></br>
+            <div class="container">
+                <h1 class="display-4">{{contentJSON.head.title}}</h1>
+                <p class="lead">{{contentJSON.head.title-desc}}</p>
+            </div>
+        </div>
+
+            {{!-- <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">{{contentJSON.head.title}}</h1>
+                        <h1 class="text-white font-weight-bold"></h1>
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">{{contentJSON.head.title-desc}}</p>
+                        <p class="text-white-75 mb-5"></p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </header>
         <!-- About-->
         <section class="page-section bg-primary" id="about">
@@ -37,14 +45,11 @@
                         <p class="text-white-75 mb-4">{{contentJSON.about.aboutme}}</p>
                         <p class="text-white-75 mb-4">{{contentJSON.about.school}}</p>
                         <p class="text-white-75 mb-4">{{contentJSON.about.experience}}</p>
-                        <a class="btn btn-light btn-xl" href="{{contentJSON.about.resume}}">View Resume!</a>
+                        <a class="btn btn-light btn-xl" target="_break" href="{{contentJSON.about.resume}}">View Resume!</a>
                         <div id="social-links" class="d-flex flex-row justify-content-center flex-wrap m-3">
-                           
-                            <a href="#"><i class="bs-primary fab fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                            {{#each contentJSON.about.social as |social|}}
+                                <a href="{{social.url}}"><i class="fab fa-{{social.name}}" aria-hidden="true"></i></a>
+                            {{/each}}
                             
                         </div>
                         
@@ -81,7 +86,7 @@
                         </a>
                         <div class="card-body">
                             <h5 class="card-title">{{project.name}}</h5>
-                            <a href="{{project.url}}" class="btn btn-primary">View Project</a>
+                            <a target="_break" href="{{project.url}}" class="btn btn-primary">View Project</a>
                         </div>
                     </div>
                     
@@ -126,14 +131,14 @@
                                         <div class="form-group"> <label for="form_email">Email *</label> <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required."> </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group"> <label for="form_need">Please specify your need *</label> <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                        {{!-- <div class="form-group"> <label for="form_need">Please specify your need *</label> <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
                                                 <option value="" selected disabled>--Select Your Issue--</option>
-                                                <option>Request Invoice for order</option>
+                                                <option></option>
                                                 <option>Request order status</option>
                                                 <option>Haven't received cashback yet</option>
                                                 <option>Other</option>
                                             </select> </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
@@ -148,7 +153,7 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
                         <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                        <div>+1 (555) 123-4567</div>
+                        <div>+1 (760) 902-7499</div>
                     </div>
                 </div>
             </div>

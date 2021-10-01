@@ -9,7 +9,13 @@
         "motto":"Work hard, play hard",
         "school": "Cal Poly SLO, Biomedical Engineering",
         "experience":"6 years of manufacturing and engineering of complex electromechanical devices",
-        "resume":"resumelink"
+        "resume":"resume/LukeColeResume.pdf",
+        "social": [
+                    {"name":"facebook", "url":""},
+                    {"name":"instagram", "url":"https://www.instagram.com/lukeajcole/"},
+                    {"name":"linkedin", "url":"www.linkedin.com/in/lukeajcole"},
+                    {"name":"github", "url":"https://github.com/lukeajcole"}
+                ]
     },
     "services":{
         "title":"What can I do for you?",
