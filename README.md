@@ -10,6 +10,7 @@ This is a simple profile web application that you can deploy and update quickly 
 ## <ins>Table of Contents</ins>
 - [Installation](#installation)
 - [Usage](#usage)
+- [Future Improvements](#Future Improvements)
 - [Questions](#questions)
 
 ## <ins>Installation</ins>
